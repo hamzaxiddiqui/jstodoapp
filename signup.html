@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup</title>
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            <a class="navbar-brand" href="practise.html">Chat Application</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+                
+                      <ul class="nav navbar-nav navbar-right">
+                            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <!-- <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+                          </ul>
+          </div>
+          
+          
+        </div>
+      </nav>
+<div class="container-fluid" id="heading">
+    <div class="container">
+        <h1 class="text-center">Sign Up </h1>
+        <form action="" class="col-md-4 col-md-offset-4">
+                <div class="form-group  ">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group  ">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>   
+                <div class="form-group  ">
+                        <label for="pwd">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>   
+                      <div class="form-group  ">
+                            <label for="pwd">Phone:</label>
+                            <input type="number" class="form-control" id="ph">
+                          </div>               
+                <button type="button" class="btn btn-info pull-right" onclick="getData();">Signup</button>
+              </form>
+    </div>
+    
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script src="slapp.js"> </script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
